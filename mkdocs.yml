@@ -1,4 +1,5 @@
 site_name: Red Team Playbook
+# Automatic deployment enabled
 site_description: A comprehensive collection of Red Teaming Tactics, Techniques, and Procedures mapped to the MITRE ATT&CK framework.
 site_author: farrosfr
 
