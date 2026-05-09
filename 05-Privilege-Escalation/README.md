@@ -5,3 +5,4 @@ Privilege Escalation consists of techniques that adversaries use to gain higher-
 
 ## Techniques
 - [Linux Privilege Escalation](./Linux-PrivEsc.md)
+- [Windows Privilege Escalation](./Windows-PrivEsc.md)
