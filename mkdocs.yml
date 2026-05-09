@@ -1,0 +1,49 @@
+site_name: Red Team Playbook
+site_description: A comprehensive collection of Red Teaming Tactics, Techniques, and Procedures mapped to the MITRE ATT&CK framework.
+site_author: farrosfr
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+nav:
+  - Home: README.md
+  - Reconnaissance: 01-Reconnaissance/README.md
+  - Initial Access: 02-Initial-Access/README.md
+  - Execution: 03-Execution/README.md
+  - Persistence: 04-Persistence/README.md
+  - Privilege Escalation: 05-Privilege-Escalation/README.md
+  - Defense Evasion: 06-Defense-Evasion/README.md
+  - Credential Access: 07-Credential-Access/README.md
+  - Discovery: 08-Discovery/README.md
+  - Lateral Movement: 09-Lateral-Movement/README.md
+  - Exfiltration: 10-Exfiltration/README.md
