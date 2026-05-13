@@ -1,0 +1,46 @@
+name: Technique request
+description: Suggest a new authorized red team technique page.
+title: "[Technique]: "
+labels: ["documentation", "needs review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for educational and authorized security research content only.
+  - type: input
+    id: tactic
+    attributes:
+      label: MITRE tactic
+      description: Example: Reconnaissance, Initial Access, Credential Access.
+    validations:
+      required: true
+  - type: input
+    id: technique
+    attributes:
+      label: MITRE technique
+      description: Include the technique name and ID when known.
+      placeholder: "Example: T1046 - Network Service Discovery"
+    validations:
+      required: false
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should be added, and why is it useful?
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and scope notes
+      description: Explain how this can be documented safely for lab or authorized use.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Add MITRE, vendor docs, or reputable research links.
+    validations:
+      required: false
+

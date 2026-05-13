@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security and abuse boundary
+    url: https://github.com/farrosfr/red-team-playbook/blob/main/CONTRIBUTING.md
+    about: Read the contribution scope before opening an issue.

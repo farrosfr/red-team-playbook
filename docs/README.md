@@ -32,4 +32,4 @@ This playbook is organized by attack phases. Each category contains Markdown fil
 - Follow the methodology and adapt the commands to your target environment.
 
 ## 🤝 Contributing
-Contributions are welcome! Please follow the existing format and ensure all techniques include OPSEC considerations and mitigation strategies.
+Contributions are welcome for educational, defensive, and authorized security research content. Please read the [contribution guide](../CONTRIBUTING.md) before opening an issue or pull request.
